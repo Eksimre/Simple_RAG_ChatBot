@@ -13,14 +13,14 @@ LongChain, **Retrieval-Augmented Generation (RAG)** ve **OpenAI API** entegrasyo
 - **FastAPI**: İstenirse hızlı ve kolay entegrasyon.
 
 ## Dosya Yapısı
-ChatBot_Project/
-├── .gitignore           # Versiyon kontrolünde hariç tutulan dosyalar
-├── README.md            # Proje tanıtım dosyası
-├── requirements.txt     # Proje bağımlılık listesi
-├── data/
-│   ├── docs/            # Sorgulama için kullanılacak dokümanlar
-│   └── faiss_index/     # RAG için oluşturulan vektör index
-├── src/                 # Uygulama kaynak kodları
+- ChatBot_Project/
+- ├── .gitignore           # Versiyon kontrolünde hariç tutulan dosyalar
+- ├── README.md            # Proje tanıtım dosyası
+- ├── requirements.txt     # Proje bağımlılık listesi
+- ├── data/
+- │   ├── docs/            # Sorgulama için kullanılacak dokümanlar
+- │   └── faiss_index/     # RAG için oluşturulan vektör index
+- ├── src/                 # Uygulama kaynak kodları
 │   ├── chatbot.py       # Ana chatbot iş mantığı
 │   ├── config.py        # Ortam değişkenleri ve ayarlar
 │   ├── llm_client.py    # LLM API istemcisi
